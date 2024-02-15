@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+<link rel="shortcut icon" href="./img/favicon.jpg" type="Conectoopia"/>
+
+<link rel="stylesheet" href="style.css"> 
+ <title>Conectoopia</title>
+
+</head>
+
+<!-- <header('Acess-Control-Allow-Origin:')></header>; -->
+<body>
+    <header>
+        <strong>Conectoopia</strong>
+        <img src="./img/labilogo8.png" alt="Logo Conectoopia">
+    </header>
+    <main class="main">
+
+         <!--Formulario postagem-->
+        <div class="newPost">
+
+            <div class="infoUser">
+                <div class="imgUser">
+                </div>
+                <strong> Luana Silva</strong>
+            </div>  
+
+            <form action="" class="formPost" id="formPost">
+                <textarea name="textarea" placeholder="Conectando vidas, redefinindo relações." id="textarea"></textarea>
+
+                <div class="iconsAndButton">
+                    <div class="icons">
+                        <button class="btnFileForm"><img src="./img/img.svg" alt="Adicionar uma imagem"></button>
+                        <button class="btnFileForm"><img src="./img/gif.svg" alt="Adicionar um gif"></button>
+                        <button class="btnFileForm"><img src="./img/video.svg" alt="Adicionar um video"></button>
+                    </div>
+
+                    <button type="submit" id="botao" class="btnSubmitForm">Publicar</button>
+                </div>
+            </form>
+        </div>
+
+
+        <ul class="posts" id="posts">
+           
+        </ul>
+
+    </main>
+    <script 
+    
+    type='module' src="controls/FormPost.js"></script>
+</body>
+</html>
